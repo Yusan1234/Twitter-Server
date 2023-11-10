@@ -10,8 +10,8 @@ import TweetService, { CreateTweetPayload } from "../../services/tweet";
 //   region: process.env.AWS_DEFAULT_REGION
 
 // });
-const s3Client = new S3Client({region: process.env.AWS_DEFAULT_REGION,
-  credentials: {accessKeyId: "AKIA5DTDA6D4XHGZKYNF", secretAccessKey: "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"}
+const s3Client = new S3Client({region: "",
+  credentials: {accessKeyId: "", secretAccessKey: ""}
 
 });
 const queries = {
